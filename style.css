@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lavender;
+}
+
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.logo{
+    font-size: 40px;
+    font-weight: 40px;
+    padding: 15px;
+}
+.button{
+    background-color:rgb(4, 17, 85);
+    color: white;
+    height: 70px;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:rgb(160, 47, 139);
+    color:rgb(183, 213, 15);
+}
+.input{
+    width: 10px;
+    height: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+#input-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#submit{
+    margin-left: 5px;
+    margin-top: 7px;
+}
+#message{
+    display: none;
+    font-size: 1.5em;
+    background-color: mediumorchid;
+    color: gold;
+    padding: 5px 15px;
+}
+#lives-text{
+
+    font-size: 2em;
+    font-weight: 500;
+    color:red;
+    text-align: center;
+
+}
